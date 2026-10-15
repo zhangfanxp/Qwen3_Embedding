@@ -1,0 +1,8 @@
+# 不通过 uv 管理时可使用：python -m pip install -r requirements.txt
+# 主依赖与 pyproject.toml 保持一致；uv.lock 由 uv 解析生成。
+gradio>=5.0,<7.0
+sentence-transformers>=5.0,<6.0
+transformers>=4.51.0,<5.0
+torch>=2.3,<3.0
+numpy>=1.26,<3.0
+huggingface-hub>=0.30,<2.0

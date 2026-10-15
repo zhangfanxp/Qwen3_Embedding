@@ -1,0 +1,100 @@
+# Qwen3-Embedding Gradio / macOS / uv
+# 只提交源码、文档、配置模板和 uv.lock；运行结果及模型权重留在本地。
+
+# Python bytecode / test artifacts
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+build/
+dist/
+
+# Virtual environments / uv caches
+.venv/
+venv/
+env/
+ENV/
+.uv-cache/
+.uv/
+.python_history
+
+# API keys / private credentials (keep .env.example)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.secret
+*.secrets
+.netrc
+credentials.json
+service-account.json
+id_rsa*
+id_ed25519*
+
+# AI model downloads, HF caches, large model weights
+.cache/
+models/
+model_cache/
+checkpoints/
+weights/
+huggingface/
+models--*/
+*.safetensors
+*.gguf
+*.onnx
+*.ckpt
+*.pt
+*.pth
+pytorch_model*.bin
+model*.bin
+*.h5
+*.hdf5
+*.tflite
+
+# Automatically generated vectors and experimental data
+outputs/
+output/
+results/
+logs/
+cache/
+tmp/
+temp/
+embedding_vectors.json
+similarities.json
+similarity_results.json
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.log
+
+# macOS / IDE
+.DS_Store
+._*
+Thumbs.db
+.idea/
+.vscode/
+
+# Downloaded archives / generated bundles
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+# Keep these files tracked:
+# README.md, app.py, embedding_engine.py, test_embedding.py,
+# requirements.txt, pyproject.toml, uv.lock, .python-version,
+# .env.example, tests/, .gitignore
+
